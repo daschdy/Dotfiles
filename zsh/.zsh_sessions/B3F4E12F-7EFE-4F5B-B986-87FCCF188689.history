@@ -1,0 +1,180 @@
+: 1704964055:0;git
+: 1704964055:0;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+: 1704964055:0;echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
+: 1704964055:0;(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/dustin/.zprofile
+: 1704964055:0;eval "$(/opt/homebrew/bin/brew shellenv)"
+: 1704964055:0;brew search iterm2
+: 1704964055:0;brew install iterm2 --casks
+: 1704964055:0;nano .zcompdump-Dustin �s\ MacBook\ Pro-5.9
+: 1704964055:0;rm -rf .zcompdump-Dustin �s\ MacBook\ Pro-5.9
+: 1704964055:0;which curl
+: 1704964055:0;git --help
+: 1704964055:0;clear
+: 1704964055:0;sh -c "$(curl -fsSL https://install.ohmyz.sh/)"~
+: 1704964055:0;curl -s "https://get.sdkman.io" | bash
+: 1704964055:0;source "$HOME/.sdkman/bin/sdkman-init.sh"
+: 1704964055:0;skd version
+: 1704964055:0;sdk version
+: 1704964055:0;sdk --help
+: 1704964055:0;sdk install java
+: 1704964055:0;java --version
+: 1704964055:0;javac --version
+: 1704964055:0;brew tap homebrew/cask-fonts && brew install --cask font-Hack Nerd Font -nerd-font\
+
+: 1704964055:0;brew install --cast font-Hack Nerd Font-nerd-font
+: 1704964055:0;brew install --cask font-Hack Nerd Font-nerd-font
+: 1704964055:0;brew install --cask font-hack-nerd-font
+: 1704964055:0;which python
+: 1704964055:0;python --version
+: 1704964055:0;clang --version
+: 1704964055:0;cargo --version
+: 1704964055:0;mkdir Developer
+: 1704964055:0;brew search rectangle
+: 1704964055:0;brew info rectangle 
+: 1704964055:0;brew install rectangle --cask
+: 1704964055:0;ssh-keygen -t rsa
+: 1704964055:0;cd .ssh
+: 1704964055:0;cat id_rsa.pub
+: 1704964055:0;ssh -T git@github.com
+: 1704964055:0;cd Development
+: 1704964055:0;mkdir Repos
+: 1704964055:0;cd Dotfiles
+: 1704964055:0;cd .
+: 1704964055:0;cd Developer
+: 1704964055:0;git init
+: 1704964055:0;git status
+: 1704964055:0;rm -rf .DS_Store
+: 1704964055:0;git add *
+: 1704964055:0;git commit -m "PFP until 6"
+: 1704964055:0;git push
+: 1704964055:0;cd PFP_WS2324
+: 1704964055:0;rm -rf .git
+: 1704964055:0;git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+: 1704964055:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+: 1704964055:0;brew doctor
+: 1704964055:0;caffinate
+: 1704964055:0;brew install update
+: 1704964055:0;brew help
+: 1704964055:0;hdwladhl
+: 1704964055:0;jaöjc
+: 1704964055:0;aöcjöaojdo
+: 1704964055:0;if apple = dusti than dusti = fanboy
+: 1704964055:0;caffeinate
+: 1704964055:0;ifconfig
+: 1704964055:0;rm -rf .viminfo
+: 1704964055:0;cd .m2
+: 1704964055:0;cd repository
+: 1704964055:0;vim .zshrc
+: 1704964055:0;brew --version
+: 1704964055:0;shutdown
+: 1704964055:0;cd .vscode
+: 1704964055:0;cd extensions
+: 1704964055:0;rm -rf .vscode
+: 1704964055:0;brew install neovim
+: 1704964055:0;nvim
+: 1704964055:0;pwd
+: 1704964055:0;/Users/dustin/.config/nvim/init.lua
+: 1704964055:0;touch /Users/dustin/.config/nvim/init.lua
+: 1704964055:0;mkdir nvim
+: 1704964055:0;cd nvim
+: 1704964055:0;brew remove neovim
+: 1704964055:0;brew remove gettext
+: 1704964055:0;brew remove tree-sitter
+: 1704964055:0;brew remove msgpack
+: 1704964055:0;brew remove luv
+: 1704964055:0;brew remove luajit
+: 1704964055:0;brew remove libvterm
+: 1704964055:0;brew remove libuv
+: 1704964055:0;brew remove libtermkey
+: 1704964055:0;brew remove unibilium
+: 1704964055:0;cat .zcompdump-Dustin �s\ MacBook\ Pro-5.9
+: 1704964055:0;ls -l
+: 1704964055:0;find -f vscode
+: 1704964055:0;find -f 'vscode'
+: 1704964055:0;cd 
+: 1704964055:0;brew search visual-studio-code
+: 1704964055:0;brew remove visual-studio-code
+: 1704964055:0;brew install visual-studio-code --casks
+: 1704964055:0;cd .local
+: 1704964055:0;cd share
+: 1704964055:0;rm -rf nvim
+: 1704964055:0;cd state
+: 1704964055:0;rm -rf .local
+: 1704964055:0;vi
+: 1704964055:0;vim
+: 1704964055:0;top
+: 1704964055:0;gcc --version
+: 1704964055:0;man 3 printf
+: 1704964055:0;tmux
+: 1704964055:0;git help
+: 1704964055:0;git config
+: 1704964055:0;touch .hushlogin
+: 1704964055:0;node --version
+: 1704964055:0;git config user.email
+: 1704964055:0;git config --global user.email
+: 1704964055:0;ssh zo04maro@cip2c0.cip.cs.fau.de
+: 1704964055:0;alias "cipfau" =ssh zo04maro@cip2c0.cip.cs.fau.de
+: 1704964055:0;alias cipfau=ssh zo04maro@cip2c0.cip.cs.fau.de
+: 1704964055:0;alias cipfau="ssh zo04maro@cip2c0.cip.cs.fau.de"
+: 1704964055:0;source .zshrc
+: 1704964055:0;rm -rf .hushlogin
+: 1704964055:0;vi .zshrc
+: 1704964055:0;cd .zsh_sessions/
+: 1704964055:0;vi .zprofile
+: 1704964055:0;scala --version
+: 1704964055:0;brew search intellj
+: 1704964055:0;cd .cache
+: 1704964055:0;ls -a
+: 1704964055:0;cd tooling
+: 1704964055:0;cd gradle
+: 1704964055:0;.
+: 1704964055:0;..
+: 1704964055:0;brew update
+: 1704964055:0;cd Downloads
+: 1704964055:0;vi bfs.txt
+: 1704964055:0;rm -rf bfs.txt
+: 1704964055:0;brew search clean
+: 1704964055:0;brew cleanup
+: 1704964055:0;brew autoremove
+: 1704964055:0;cipfau
+: 1704964055:0;which $SHELL
+: 1704964055:0;size .oh-my-zsh
+: 1704964055:0;du .oh-my-zsh
+: 1704964055:0;du -sh .oh-my-zsh
+: 1704964055:0;cd
+: 1704964055:0;git clone git@github.com:daschdy/Dotfiles.git
+: 1704964055:0;du -sh Repos
+: 1704964055:0;uninstall_oh_my_zsh
+: 1704964055:0;ls 
+: 1704964055:0;zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
+: 1704963850:0;cd .cups
+: 1704963854:0;cat lpoptions
+: 1704963867:0;rm -rf .cups
+: 1704963876:0;cat .DS_Store
+: 1704963971:0;cd config
+: 1704964052:1;sdk install scala
+: 1704964150:0;iterm2
+: 1704964153:0;iterm
+: 1704964162:0;which iterm2
+: 1704964234:0;open -a iTerm
+: 1704964237:0;open iTerm
+: 1704964243:0;open --help
+: 1704964585:0;cd Repos
+: 1704964593:0;rm -rf Repos
+: 1704965581:0;ls -la
+: 1705052152:0;cd kitty
+: 1705052377:0;mv ~/Downloads/kitty.conf .
+: 1705052382:0;code .
+: 1705052459:0;cd kitty/
+: 1705052045:1;brew search kitt
+: 1705052081:41;brew install kitty
+: 1705052631:0;brew list
+: 1705052642:1;brew remove iterm2
+: 1705052652:0;cd .config
+: 1705052653:0;ls
+: 1705052657:0;rm -rf iterm2
+: 1705052691:0;kitty --config
+: 1705052693:0;cd ..
+: 1705053062:6;kitty
+: 1705053069:0;exi
+: 1705053071:0;exit
