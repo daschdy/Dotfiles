@@ -18,4 +18,4 @@ Temporary Items
 .apdisk
 
 # Ignore zsh history file
-zsh/.zshhistory
+zsh/.zsh_history
