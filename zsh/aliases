@@ -1,2 +1,3 @@
 alias update="brew update"
 alias faucip="ssh zo04maro@cip2c0.cip.cs.fau.de"
+alias uber="ssh daschdy@horologium.uberspace.de"
