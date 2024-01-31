@@ -23,6 +23,7 @@ return {
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities,
 			})
+      -- web
 			lspconfig.cssls.setup({
 				capabilities = capabilities,
 			})
@@ -35,6 +36,11 @@ return {
 			lspconfig.html.setup({
 				capabilities = capabilities,
 			})
+      -- notes
+			lspconfig.marksman.setup({
+				capabilities = capabilities,
+			})
+
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
