@@ -3,7 +3,7 @@ return {
   dependencies = { "nvim-telescope/telescope.nvim" },
   config = function()
     require("telekasten").setup({
-      home = vim.fn.expand("/Users/dustin/Library/Mobile Documents/com~apple~CloudDocs/Zettelkasten/"),
+      home = vim.fn.expand("/Users/dustin/Zettelkasten/"),
     })
   end,
 }
