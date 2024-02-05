@@ -6,8 +6,5 @@ return {
 		build = function()
 			vim.fn["mkdp#util#install"]()
 		end,
-    config = function()
-      vim.keymap.set("n", "<C-S-m>", ":MarkdownPreviewToggle<CR>", {})
-    end
 	},
 }
