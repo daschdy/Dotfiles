@@ -5,5 +5,5 @@ vim.cmd("set shiftwidth=2")
 
 vim.opt.cursorline = true
 vim.g.mapleader = " "
--- vim.wo.relativenumber = true
-vim.opt.number = true
+vim.wo.relativenumber = true
+--vim.opt.number = true
