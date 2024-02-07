@@ -40,6 +40,10 @@ return {
 			lspconfig.marksman.setup({
 				capabilities = capabilities,
 			})
+			-- code
+			lspconfig.java_language_server.setup({
+				capabilities = capabilities,
+			})
 		end,
 	},
 }
