@@ -4,7 +4,7 @@ return {
 	config = function()
 		local configs = require("nvim-treesitter.configs")
 		configs.setup({
-			ensure_installed = { "astro", "tsx", "typescript", "html", "markdown", "markdown_inline" },
+			ensure_installed = { "java", "astro", "tsx", "typescript", "html", "markdown", "markdown_inline" },
 			auto_install = true,
 			highlight = {
 				enable = true,

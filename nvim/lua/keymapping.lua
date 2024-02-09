@@ -29,4 +29,5 @@ vim.keymap.set("n", "<C-S-x>", ":TimerStop<CR>", {})
 
 -- Zettelkasten
 vim.keymap.set("n", "<leader>zf", "<cmd>Telekasten find_notes<CR>", {})
+vim.keymap.set("n", "<leader>zt", "<cmd>Telekasten show_tags<CR>", {})
 vim.keymap.set("n", "<leader>zn", "<cmd>Telekasten new_note<CR>", {})
