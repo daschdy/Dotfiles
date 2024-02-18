@@ -3,8 +3,8 @@ vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
 vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
 vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<c-d>", "<C-d>zz")
+vim.keymap.set("n", "<c-u>", "<C-u>zz")
 
 -- Copilot
 vim.keymap.set("n", "<leader>pe", ":Copilot enable<CR>", {})
@@ -17,17 +17,17 @@ vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
 vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
 
 -- MarkdownPreview
-vim.keymap.set("n", "<C-S-m>", ":MarkdownPreviewToggle<CR>", {})
+vim.keymap.set("n", "<c-s-m>", ":MarkdownPreviewToggle<CR>", {})
 
 -- Neotree
-vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>")
+vim.keymap.set("n", "<c-n>", ":Neotree filesystem reveal left<CR>")
 
 -- NoneLS
 vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 
 -- Pomo
-vim.keymap.set("n", "<C-S-z>", ":TimerStart 25m Fokus<CR>", {})
-vim.keymap.set("n", "<C-S-x>", ":TimerStop<CR>", {})
+vim.keymap.set("n", "<c-s-z>", ":TimerStart 25m Fokus<CR>", {})
+vim.keymap.set("n", "<c-s-x>", ":TimerStop<CR>", {})
 
 -- Zettelkasten
 vim.keymap.set("n", "<leader>zf", "<cmd>Telekasten find_notes<CR>", {})
