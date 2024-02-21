@@ -1,5 +1,5 @@
 alias blog="cd /Users/dustin/Developer/Blog"
-alias update="brew update && brew upgrade"
+alias update="~/Developer/DotFilesMac/scripts/update.sh"
 alias faucip="ssh zo04maro@cip2c0.cip.cs.fau.de"
 alias uber="ssh daschdy@horologium.uberspace.de"
 alias dot="cd /Users/dustin/Developer/DotfilesMac/"
