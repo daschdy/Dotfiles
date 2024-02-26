@@ -17,5 +17,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Ignore zsh history file
+# Ignore zsh
 zsh/.zsh_history
+zsh/aliases
+zsh/.zsh_sessions/
+zsh/.zcompdump
