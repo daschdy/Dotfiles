@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 ## Sourcing .zshrc for sdkman and zap
-source ~/Developer/DotfilesMac/zsh/.zshrc
+source ~/Developer/Dotfiles/zsh/.zshrc
 
 ## Update Homebrew 
 echo "Updating Homebrew ..."
