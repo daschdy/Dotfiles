@@ -7,7 +7,8 @@ plug "zap-zsh/simple-prompt"
 # plug "zap-zsh/vim"
 
 # ALIASES
-plug "$HOME/.config/zsh/aliases"
+plug "$HOME/.config/zsh/aliases_pub"
+plug "$HOME/.config/zsh/aliases_priv"
 
 # Load and initialise completion system
 autoload -Uz compinit

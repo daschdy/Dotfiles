@@ -1,0 +1,5 @@
+-alias lg="lazygit"
+-alias vim="nvim"
+-alias ll="ls -la"
+-alias ta="tmux attach-session"
+-alias update="~/Developer/Dotfiles/scripts/update.sh"
