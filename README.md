@@ -1,7 +1,9 @@
 # Dotfiles for MAC
 
 ## Terminal 
-Kitty, zsh and zap 
+- Emulator: Kitty
+- Shell: zsh 
+- Plugins: zap 
 ![Terminal](https://github.com/daschdy/DotfilesMac/blob/main/img/kitty.png?raw=true)
 
 ## Neovim
