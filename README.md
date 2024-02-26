@@ -1,7 +1,8 @@
 # Dotfiles for MAC
 
-## Terminal - Kitty
+## Terminal 
+Kitty, zsh and zap 
 
-## Shell - zsh
 
-## TextEditor - Neovim
+## Neovim
+
