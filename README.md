@@ -1,5 +1,22 @@
 # Dotfiles for MAC
 
+## TODO:
+- [ ] Add installation script 
+- [ ] Add documentation for requirements
+
+## Requirements 
+- ensure, that the following items are installed:
+    - Homebrew 
+    - Neovim 
+    - Nerdfont 
+    - Kitty 
+    - Zsh, especially Zap 
+    - Tmux
+    - SDKMAN 
+    - Miniconda 
+    - NodeJS
+    - fzf, rg
+
 ## Terminal 
 - Emulator: Kitty
 - Shell: zsh 
