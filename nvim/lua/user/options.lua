@@ -1,3 +1,5 @@
+-- SETTING OPTIONS --
+
 -- line numbers
 vim.opt.nu = true
 vim.opt.rnu = true
@@ -36,7 +38,7 @@ vim.opt.undofile = true
 vim.opt.termguicolors = true
 
 -- Enable access to System Clipboard
-vim.opt.clipboard = "unnamed,unnamedplus"
+vim.opt.clipboard = "unnamedplus"
 
 -- Cursorline
 vim.opt.cursorline = true

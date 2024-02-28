@@ -12,6 +12,7 @@ function M.config()
 		sources = {
 			formatting.stylua,
 			formatting.prettier,
+      formatting.markdownlint,
 			null_ls.builtins.completion.spell,
 		},
 	})
