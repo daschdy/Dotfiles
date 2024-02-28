@@ -3,7 +3,7 @@
 ## Terminal 
 - Emulator: Kitty
 - Shell: zsh 
-- Plugins: zap 
+- P>lugins: zap 
 ![Terminal](https://github.com/daschdy/DotfilesMac/blob/main/img/kitty.png?raw=true)
 
 ## Neovim

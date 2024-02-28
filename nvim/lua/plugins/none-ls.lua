@@ -13,6 +13,7 @@ function M.config()
 			formatting.stylua,
 			formatting.prettier,
       formatting.markdownlint,
+      formatting.yapf,
 			null_ls.builtins.completion.spell,
 		},
 	})

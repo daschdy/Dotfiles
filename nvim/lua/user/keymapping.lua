@@ -17,7 +17,7 @@ vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
 vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
 
 -- MarkdownPreview
-vim.keymap.set("n", "<c-s-m>", ":MarkdownPreviewToggle<CR>", {})
+vim.keymap.set("n", "<leader>mp", ":MarkdownPreview<CR>", {})
 
 -- Neotree
 vim.keymap.set("n", "<c-n>", ":Neotree filesystem reveal left<CR>")
