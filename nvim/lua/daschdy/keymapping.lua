@@ -33,3 +33,6 @@ vim.keymap.set("n", "<c-s-x>", ":TimerStop<CR>", {})
 vim.keymap.set("n", "<leader>zf", "<cmd>Telekasten find_notes<CR>", {})
 vim.keymap.set("n", "<leader>zt", "<cmd>Telekasten show_tags<CR>", {})
 vim.keymap.set("n", "<leader>zn", "<cmd>Telekasten new_note<CR>", {})
+
+-- Set highlight on search, but clear on pressing <Esc> in normal mod
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')

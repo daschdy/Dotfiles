@@ -1,8 +1,7 @@
 -- SETTING OPTIONS --
 
 -- line numbers
-vim.opt.nu = true
-vim.opt.rnu = true
+vim.opt.relativenumber = true
 
 -- tabs to 2 spaces
 vim.opt.tabstop = 2
@@ -10,7 +9,7 @@ vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 
 -- Enable auto indenting and set it to spaces
-vim.opt.smartindent = true
+-- vim.opt.smartindent = true
 vim.opt.shiftwidth = 2
 
 -- Enable smart indenting
@@ -41,4 +40,17 @@ vim.opt.termguicolors = true
 vim.opt.clipboard = "unnamedplus"
 
 -- Cursorline
+vim.opt.cursorline = true
+
+-- Mouse Mode 
+vim.opt.mouse = "a"
+
+-- Don't show the mode, since it's already in status line
+vim.opt.showmode = false
+
+-- Decrease update time
+vim.opt.updatetime = 250
+vim.opt.timeoutlen = 300
+
+-- Show which line your cursor is on
 vim.opt.cursorline = true

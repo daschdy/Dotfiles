@@ -22,6 +22,13 @@ return {
 		},
 	},
 	{
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+	},
+	{
+		"j-hui/fidget.nvim",
+		opts = {},
+	},
+	{
 		"neovim/nvim-lspconfig",
 		lazy = false,
 		config = function()
@@ -55,9 +62,9 @@ return {
 			lspconfig.rust_analyzer.setup({
 				capabilities = capabilities,
 			})
-      lspconfig.pyright.setup({
-        capabilities = capabilities,
-      })
+			lspconfig.pyright.setup({
+				capabilities = capabilities,
+			})
 		end,
 	},
 }
