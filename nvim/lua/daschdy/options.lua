@@ -42,7 +42,7 @@ vim.opt.clipboard = "unnamedplus"
 -- Cursorline
 vim.opt.cursorline = true
 
--- Mouse Mode 
+-- Mouse Mode
 vim.opt.mouse = "a"
 
 -- Don't show the mode, since it's already in status line
@@ -52,5 +52,8 @@ vim.opt.showmode = false
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
 
--- Show which line your cursor is on
+-- Nerd Font installed?
+vim.g.have_nerd_font = true
+
+-- CursorLine?
 vim.opt.cursorline = true
