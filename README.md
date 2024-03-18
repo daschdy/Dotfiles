@@ -10,7 +10,7 @@
 Ensure, that the following items are installed:
 
 - Homebrew
--) Neovim
+- Neovim
 - Nerdfont
 - Kitty
 - Zsh, especially Zap

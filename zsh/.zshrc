@@ -6,6 +6,9 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zap-zsh/simple-prompt"
 # plug "zap-zsh/vim"
 
+export EDITOR="nvim"
+export TERMINAL="kitty"
+
 # ALIASES
 plug "$HOME/.config/zsh/aliases_pub"
 plug "$HOME/.config/zsh/aliases_priv"
