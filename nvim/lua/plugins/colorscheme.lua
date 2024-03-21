@@ -30,12 +30,12 @@ return {
 		-- end,
 	},
 	{
-    "shatur/neovim-ayu",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.g.ayu_mirage = false
-      vim.cmd.colorscheme("ayu")
-    end,
+		"shatur/neovim-ayu",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			vim.g.ayu_mirage = false
+			vim.cmd.colorscheme("ayu")
+		end,
 	},
 }
