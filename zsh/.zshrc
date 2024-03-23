@@ -3,7 +3,7 @@
 plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-syntax-highlighting"
-plug "zap-zsh/simple-prompt"
+# plug "zap-zsh/simple-prompt"
 # plug "zap-zsh/vim"
 
 export EDITOR="nvim"
@@ -37,3 +37,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+eval "$(starship init zsh)"
