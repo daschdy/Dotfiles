@@ -14,28 +14,21 @@ return {
 		-- end,
 	},
 	{
-		-- "oxfist/night-owl.nvim",
+		-- "shatur/neovim-ayu",
 		-- lazy = false,
 		-- priority = 1000,
 		-- config = function()
-		--   require("night-owl").setup({
-		--     bold = true,
-		--     italics = true,
-		--     underline = true,
-		--     undercurl = true,
-		--     transparent_background = false,
-		--   })
-		--
-		--   vim.cmd.colorscheme("night-owl")
+		-- 	vim.g.ayu_mirage = false
+		-- 	vim.cmd.colorscheme("ayu")
 		-- end,
 	},
 	{
-		"shatur/neovim-ayu",
+		"bluz71/vim-moonfly-colors",
+		name = "moonfly",
 		lazy = false,
 		priority = 1000,
 		config = function()
-			vim.g.ayu_mirage = false
-			vim.cmd.colorscheme("ayu")
+			vim.cmd.colorscheme("moonfly")
 		end,
 	},
 }
