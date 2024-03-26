@@ -2,7 +2,7 @@
 autoload -Uz compinit
 compinit
 
-export TERMINAL="kitty"
+export TERMINAL="wezterm"
 export EDITOR="nvim"
 
 # ZAP
