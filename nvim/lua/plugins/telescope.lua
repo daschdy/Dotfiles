@@ -1,5 +1,6 @@
 return {
-	{ "nvim-telescope/telescope.nvim",
+	{
+		"nvim-telescope/telescope.nvim",
 		event = "VimEnter",
 		branch = "0.1.x",
 		dependencies = {
@@ -22,6 +23,11 @@ return {
 		},
 		config = function()
 			require("telescope").setup({
+				pickers = {
+					find_files = {
+						find_command = { "rg", "--files", "--hidden", "-g", "!.git" },
+					},
+				},
 				extensions = {
 					["ui-select"] = {
 						require("telescope.themes").get_dropdown(),
