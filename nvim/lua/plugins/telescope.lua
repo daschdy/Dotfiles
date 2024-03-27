@@ -1,6 +1,5 @@
 return {
-	{
-		"nvim-telescope/telescope.nvim",
+	{ "nvim-telescope/telescope.nvim",
 		event = "VimEnter",
 		branch = "0.1.x",
 		dependencies = {
@@ -34,11 +33,6 @@ return {
 			pcall(require("telescope").load_extension, "ui-select")
 
 			local builtin = require("telescope.builtin")
-			builtin.find_files({
-				find_command = { "rg", "--files", "--iglob", "!.git", "--hidden" },
-				previewer = false,
-			})
-
 			vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "[S]earch [F]iles" })
 			vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "[S]earch by [G]rep" })
 			vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "[ ] Find existing buffers" })
