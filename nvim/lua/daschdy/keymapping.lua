@@ -37,3 +37,7 @@ vim.keymap.set("n", "<leader>zn", "<cmd>Telekasten new_note<CR>", {})
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mod
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+
+-- Split 
+vim.keymap.set("n", "<leader>vs", ":vsplit<CR>", {})
+vim.keymap.set("n", "<leader>hs", ":split<CR>", {})
