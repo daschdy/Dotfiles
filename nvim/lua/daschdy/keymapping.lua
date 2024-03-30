@@ -5,6 +5,7 @@ vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 vim.keymap.set("n", "<c-d>", "<C-d>zz")
 vim.keymap.set("n", "<c-u>", "<C-u>zz")
+vim.keymap.set("n", "<leader>k", ":nohlsearch<CR>")
 
 -- Copilot
 vim.keymap.set("n", "<leader>pe", ":Copilot enable<CR>", {})
