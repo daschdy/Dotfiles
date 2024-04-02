@@ -16,6 +16,9 @@ vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
 vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
 vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, {})
+vim.keymap.set("n", "<leader>en", vim.diagnostic.goto_next, {})
+vim.keymap.set("n", "<leader>ep", vim.diagnostic.goto_prev, {})
 
 -- MarkdownPreview
 vim.keymap.set("n", "<leader>mp", ":MarkdownPreviewToggle<CR>", {})
@@ -41,3 +44,7 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- Split 
 vim.keymap.set("n", "<leader>vs", ":vsplit<CR>", {})
 vim.keymap.set("n", "<leader>hs", ":split<CR>", {})
+
+-- Specific
+vim.keymap.set("i", "<M-5>", "[", {})
+vim.keymap.set("i", "<M-6>", "]", {})
