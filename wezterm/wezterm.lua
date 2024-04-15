@@ -9,7 +9,7 @@ end)
 
 config.color_scheme = "Moonfly (Gogh)"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.85
+config.window_background_opacity = 1
 config.font = wezterm.font("Hack Nerd Font")
 config.font_size = 12.5
 config.line_height = 1.0
