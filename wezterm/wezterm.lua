@@ -10,6 +10,7 @@ wezterm.on("gui-startup", function()
 end)
 
 config.color_scheme = "Moonfly (Gogh)"
+
 config.term = "xterm-256color"
 config.window_background_opacity = 1
 config.font = wezterm.font("Hack Nerd Font")
