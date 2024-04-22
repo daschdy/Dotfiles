@@ -9,7 +9,7 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
-config.color_scheme = "Moonfly (Gogh)"
+config.color_scheme = "PaperColor Dark (base16)"
 
 config.term = "xterm-256color"
 config.window_background_opacity = 1
