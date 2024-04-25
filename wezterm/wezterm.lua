@@ -18,6 +18,7 @@ config.font_size = 16.0
 config.line_height = 1.3
 config.enable_tab_bar = true
 config.enable_scroll_bar = false
+config.tab_bar_at_bottom = false
 config.scrollback_lines = 10000
 config.window_decorations = "RESIZE"
 config.window_close_confirmation = "NeverPrompt"
