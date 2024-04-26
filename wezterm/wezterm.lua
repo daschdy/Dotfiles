@@ -10,7 +10,6 @@ wezterm.on("gui-startup", function()
 end)
 
 config.color_scheme = "Poimandres"
-
 config.term = "xterm-256color"
 config.window_background_opacity = 1
 config.font = wezterm.font("Hack Nerd Font")
@@ -22,6 +21,7 @@ config.tab_bar_at_bottom = false
 config.scrollback_lines = 10000
 config.window_decorations = "RESIZE"
 config.window_close_confirmation = "NeverPrompt"
+config.audible_bell = "Disabled"
 
 config.leader = { key = "s", mods = "CTRL", timeout_milliseconds = 1000 }
 config.keys = {
