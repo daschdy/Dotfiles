@@ -5,17 +5,11 @@ compinit
 export TERMINAL="wezterm"
 export EDITOR="nvim"
 
-# ZAP
-[ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
-plug "zsh-users/zsh-autosuggestions"
-plug "zap-zsh/supercharge"
-plug "zsh-users/zsh-syntax-highlighting"
-# plug "zap-zsh/simple-prompt"
-# plug "zap-zsh/vim"
+source "$HOME/.config/zsh/aliases_pub"
+source "$HOME/.config/zsh/aliases_priv"
 
-# ALIASES
-plug "$HOME/.config/zsh/aliases_pub"
-plug "$HOME/.config/zsh/aliases_priv"
+# Syntax highlighting 
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # SDKMAN
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
