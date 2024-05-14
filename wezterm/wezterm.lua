@@ -9,7 +9,7 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
-config.color_scheme = "rose-pine"
+-- config.color_scheme = "rose-pine"
 config.term = "xterm-256color"
 config.window_background_opacity = 1
 config.font = wezterm.font("Anonymous Pro")
