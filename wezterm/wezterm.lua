@@ -12,8 +12,8 @@ end)
 config.color_scheme = "rose-pine"
 config.term = "xterm-256color"
 config.window_background_opacity = 1
-config.font = wezterm.font("Hack Nerd Font")
-config.font_size = 16.0
+config.font = wezterm.font("Anonymous Pro")
+config.font_size = 16.5
 config.line_height = 1.3
 config.enable_tab_bar = true
 config.enable_scroll_bar = false
