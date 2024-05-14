@@ -19,10 +19,5 @@ echo "Updating sdkman ..."
 echo ""
 sdk update
 
-## RustUp 
-echo "Updating Rust ..."
-echo ""
-rustup update 
-
 echo ""
 echo "You are up to date!!!"

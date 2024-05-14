@@ -1,14 +1,26 @@
 {
-    "theme": "Rosé Pine",
+    "theme": "Andromeda",
     "telemetry": {
         "diagnostics": false,
         "metrics": false
     },
     "vim_mode": true,
-    "ui_font_size": 14,
-    "buffer_font_size": 14,
     "autosave": "off",
-    "buffer_font_family": "Hack Nerd Font",
     "format_on_save": "on",
-    "tab_size": 4
+    "buffer_font_family": "Hack Nerd Font",
+    "ui_font_size": 14,
+    "buffer_font_size": 16,
+    "tab_size": 4,
+    "cursor_blink": false,
+    "scrollbar": {
+        "show": "never"
+    },
+    "tab_bar": {
+        "show": false,
+        "show_nav_history_buttons": false
+    },
+    "toolbar": {
+        "breadcrumbs": false,
+        "quick_actions": false
+    }
 }
