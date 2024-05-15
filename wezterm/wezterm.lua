@@ -4,7 +4,7 @@ local mux = wezterm.mux
 local act = wezterm.action
 
 local usedFont = "Anonymous Pro"
-local usedFontSize = 16.5
+local usedFontSize = 18
 
 -- Window is maximized on startup
 wezterm.on("gui-startup", function()
@@ -28,7 +28,7 @@ config.audible_bell = "Disabled"
 
 config.window_frame = {
 	font = wezterm.font({ family = usedFont, weight = "Bold" }),
-	font_size = usedFontSize - 2,
+	font_size = 14.5,
 	active_titlebar_bg = "#333333",
 	inactive_titlebar_bg = "#333333",
 }
