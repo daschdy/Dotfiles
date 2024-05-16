@@ -1,7 +1,3 @@
-alias lg='lazygit'
 alias vim='nvim'
 alias ll='ls -la'
-alias ta='tmux attach-session'
 alias update='$HOME/Developer/Dotfiles/scripts/update.sh'
-alias ca="conda activate"
-alias cs="conda deactivate"

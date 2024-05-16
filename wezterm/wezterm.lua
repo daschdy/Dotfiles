@@ -33,13 +33,13 @@ config.font_rules = {
 		font = wezterm.font({ family = "Maple Mono", weight = "Bold", style = "Italic" }),
 	},
 	{
-		italic = true,
 		intensity = "Half",
+		italic = true,
 		font = wezterm.font({ family = "Maple Mono", weight = "DemiBold", style = "Italic" }),
 	},
 	{
-		italic = true,
 		intensity = "Normal",
+		italic = true,
 		font = wezterm.font({ family = "Maple Mono", style = "Italic" }),
 	},
 }
@@ -48,7 +48,7 @@ config.font_rules = {
 config.enable_tab_bar = true
 config.tab_bar_at_bottom = false
 config.window_frame = {
-	font = wezterm.font({ family = "Fira Code", weight = "Bold" }),
+	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
 	font_size = 12,
 	active_titlebar_bg = "#333333",
 	inactive_titlebar_bg = "#333333",
