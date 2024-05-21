@@ -15,11 +15,18 @@ config.scrollback_lines = 10000
 config.window_decorations = "RESIZE"
 config.window_close_confirmation = "NeverPrompt"
 config.audible_bell = "Disabled"
+config.adjust_window_size_when_changing_font_size = false
+config.hide_tab_bar_if_only_one_tab = false
 
 -- colorscheme
 config.color_scheme = "Moonfly (Gogh)"
 config.term = "xterm-256color"
 config.window_background_opacity = 1
+
+config.inactive_pane_hsb = {
+	saturation = 0.8,
+	brightness = 0.7,
+}
 
 -- Font settings
 config.font_size = 16

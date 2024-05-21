@@ -7,7 +7,7 @@
     "vim_mode": true,
     "autosave": "off",
     "format_on_save": "on",
-    "buffer_font_family": "Hack Nerd Font",
+    "buffer_font_family": "Fira Code",
     "ui_font_size": 14,
     "buffer_font_size": 16,
     "tab_size": 4,
