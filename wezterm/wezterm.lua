@@ -19,13 +19,13 @@ config.adjust_window_size_when_changing_font_size = false
 config.hide_tab_bar_if_only_one_tab = false
 
 -- colorscheme
-config.color_scheme = "Moonfly (Gogh)"
+config.color_scheme = "OneDark (base16)"
 config.term = "xterm-256color"
 config.window_background_opacity = 1
 
 config.inactive_pane_hsb = {
 	saturation = 0.8,
-	brightness = 0.7,
+	brightness = 0.7
 }
 
 -- Font settings
@@ -52,18 +52,37 @@ config.font_rules = {
 }
 
 -- tab bar settings
+local bg = "#282C34"
+local fg = "#61AFEF"
+local ifg = "#5C6370"
 config.enable_tab_bar = true
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
 	font_size = 12,
-	active_titlebar_bg = "#333333",
-	inactive_titlebar_bg = "#333333",
+	active_titlebar_bg = bg,
+	inactive_titlebar_bg = bg,
 }
 
 config.colors = {
 	tab_bar = {
-		inactive_tab_edge = "#575757",
+		active_tab = {
+			bg_color = bg,
+			fg_color = fg,
+		},
+		inactive_tab = {
+			bg_color = bg,
+			fg_color = ifg,
+		},
+		inactive_tab_hover = {
+			bg_color = bg,
+			fg_color = ifg,
+		},
+		new_tab = {
+			bg_color = bg,
+			fg_color = ifg,
+		},
+		inactive_tab_edge = atb,
 	},
 }
 
