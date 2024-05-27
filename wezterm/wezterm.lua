@@ -5,7 +5,7 @@ local act = wezterm.action
 
 -- Window is maximized on startup
 wezterm.on("gui-startup", function()
-	local tab, pane, window = mux.spawn_window({})
+	local _, _, window = mux.spawn_window({})
 	window:gui_window():maximize()
 end)
 
@@ -17,15 +17,16 @@ config.window_close_confirmation = "NeverPrompt"
 config.audible_bell = "Disabled"
 config.adjust_window_size_when_changing_font_size = false
 config.hide_tab_bar_if_only_one_tab = false
+config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
 config.color_scheme = "OneDark (base16)"
 config.term = "xterm-256color"
-config.window_background_opacity = 1
+config.window_background_opacity = 1.0
 
 config.inactive_pane_hsb = {
-	saturation = 0.8,
-	brightness = 0.7
+	saturation = 0.9,
+	brightness = 0.95,
 }
 
 -- Font settings
@@ -82,7 +83,7 @@ config.colors = {
 			bg_color = bg,
 			fg_color = ifg,
 		},
-		inactive_tab_edge = atb,
+		inactive_tab_edge = bg,
 	},
 }
 
@@ -104,12 +105,12 @@ config.keys = {
 	},
 	-- Switching tabs with vim-keys
 	{
-		key = "h",
+		key = "H",
 		mods = "LEADER",
 		action = act.ActivateTabRelative(-1),
 	},
 	{
-		key = "l",
+		key = "L",
 		mods = "LEADER",
 		action = act.ActivateTabRelative(1),
 	},
@@ -125,22 +126,22 @@ config.keys = {
 		action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
 	},
 	{
-		key = "H",
+		key = "h",
 		mods = "LEADER",
 		action = act.ActivatePaneDirection("Left"),
 	},
 	{
-		key = "J",
+		key = "j",
 		mods = "LEADER",
 		action = act.ActivatePaneDirection("Down"),
 	},
 	{
-		key = "K",
+		key = "k",
 		mods = "LEADER",
 		action = act.ActivatePaneDirection("Up"),
 	},
 	{
-		key = "L",
+		key = "l",
 		mods = "LEADER",
 		action = act.ActivatePaneDirection("Right"),
 	},
