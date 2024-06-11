@@ -11,8 +11,10 @@ source "$HOME/.config/zsh/aliases_priv"
 # Syntax highlighting 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# fzf
+source <(fzf --zsh)
+
 # SDKMAN
-# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
