@@ -20,7 +20,7 @@ config.hide_tab_bar_if_only_one_tab = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "OneDark (base16)"
+config.color_scheme = "Tokyo Night"
 config.term = "xterm-256color"
 config.window_background_opacity = 1.0
 
@@ -53,7 +53,7 @@ config.font_rules = {
 }
 
 -- tab bar settings
-local bg = "#282C34"
+local bg = "#1a1b26"
 local fg = "#61AFEF"
 local ifg = "#5C6370"
 config.enable_tab_bar = true
