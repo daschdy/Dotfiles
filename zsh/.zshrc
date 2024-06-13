@@ -31,5 +31,8 @@ else
 fi
 unset __conda_setup
 
+# CARGO 
+source "$HOME/.cargo/env"
+
 # STARSHIP
 eval "$(starship init zsh)"
