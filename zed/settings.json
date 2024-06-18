@@ -1,5 +1,5 @@
 {
-    "theme": "Andromeda",
+    "theme": "One Dark",
     "telemetry": {
         "diagnostics": false,
         "metrics": false
@@ -16,7 +16,7 @@
         "show": "never"
     },
     "tab_bar": {
-        "show": false,
+        "show": true,
         "show_nav_history_buttons": false
     },
     "toolbar": {
