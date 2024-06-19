@@ -2,7 +2,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "space n": "workspace::ToggleLeftDock"
+      "space n": "workspace::ToggleLeftDock",
+      "space t": "workspace::NewTerminal"
     }
   },
   {
@@ -19,7 +20,9 @@
       "alt-h": [
         "workspace::SendKeystrokes",
         "alt-cmd-left"
-      ]
+      ],
+      "ctrl-h": "pane::ActivatePrevItem",
+      "ctrl-l": "pane::ActivateNextItem"
     }
   }
 ]

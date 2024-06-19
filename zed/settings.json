@@ -1,5 +1,5 @@
 {
-  "theme": "Tokyo Night Storm",
+  "theme": "Tokyo Night",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -30,5 +30,18 @@
     "git_status": true,
     "default_width": 200
   },
-  "restore_on_startup": "none"
+  "restore_on_startup": "none",
+  "chat_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "assistant": {
+    "version": "1",
+    "button": false
+  }
 }
