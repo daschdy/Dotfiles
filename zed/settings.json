@@ -1,5 +1,5 @@
 {
-  "theme": "Ayu Dark",
+  "theme": "Tokyo Night Storm",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -29,5 +29,6 @@
     "dock": "left",
     "git_status": true,
     "default_width": 200
-  }
+  },
+  "restore_on_startup": "none"
 }
