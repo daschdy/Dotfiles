@@ -1,26 +1,33 @@
 {
-    "theme": "One Dark",
-    "telemetry": {
-        "diagnostics": false,
-        "metrics": false
-    },
-    "vim_mode": true,
-    "autosave": "off",
-    "format_on_save": "on",
-    "buffer_font_family": "Fira Code",
-    "ui_font_size": 14,
-    "buffer_font_size": 16,
-    "tab_size": 4,
-    "cursor_blink": false,
-    "scrollbar": {
-        "show": "never"
-    },
-    "tab_bar": {
-        "show": true,
-        "show_nav_history_buttons": false
-    },
-    "toolbar": {
-        "breadcrumbs": false,
-        "quick_actions": false
-    }
+  "theme": "Ayu Dark",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "autosave": "off",
+  "format_on_save": "on",
+  "buffer_font_family": "Fira Code",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "tab_size": 2,
+  "cursor_blink": false,
+  "scrollbar": {
+    "show": "never"
+  },
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "formatter": "language_server",
+  "project_panel": {
+    "button": false,
+    "dock": "left",
+    "git_status": true,
+    "default_width": 200
+  }
 }
