@@ -1,0 +1,25 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "space n": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space f f": [
+        "workspace::SendKeystrokes",
+        "cmd-p"
+      ],
+      "shift-k": [
+        "workspace::SendKeystrokes",
+        "cmd-k"
+      ],
+      "alt-h": [
+        "workspace::SendKeystrokes",
+        "alt-cmd-left"
+      ]
+    }
+  }
+]
