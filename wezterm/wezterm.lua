@@ -56,7 +56,9 @@ config.font_rules = {
 local bg = "#1a1b26"
 local fg = "#61AFEF"
 local ifg = "#5C6370"
-config.enable_tab_bar = true
+-- config.enable_tab_bar = true
+config.use_fancy_tab_bar = true
+config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
