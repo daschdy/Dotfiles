@@ -22,3 +22,6 @@ zsh/.zsh_history
 zsh/aliases_priv
 zsh/.zsh_sessions/
 zsh/.zcompdump
+
+# Ignore zed 
+zed/.tmp*
