@@ -15,7 +15,7 @@
       ],
       "shift-k": [
         "workspace::SendKeystrokes",
-        "cmd-k"
+        "cmd-shift-k"
       ],
       "alt-h": [
         "workspace::SendKeystrokes",
