@@ -7,7 +7,8 @@ source ~/Developer/Dotfiles/zsh/.zshrc
 echo "Updating Homebrew ..."
 echo ""
 brew update 
-brew upgrade 
+brew upgrade
+brew upgrade --cask
 
 echo "Cleaning Homebrew ..."
 echo ""

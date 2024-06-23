@@ -18,6 +18,7 @@ Temporary Items
 .apdisk
 
 # Ignore zsh
+zsh/.zhistory
 zsh/.zsh_history
 zsh/aliases_priv
 zsh/.zsh_sessions/

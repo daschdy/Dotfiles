@@ -22,7 +22,7 @@ config.default_cursor_style = "BlinkingBar"
 -- colorscheme
 config.color_scheme = "Tokyo Night"
 config.term = "xterm-256color"
-config.window_background_opacity = 1.0
+config.window_background_opacity = 0.9
 
 config.inactive_pane_hsb = {
 	saturation = 0.9,
