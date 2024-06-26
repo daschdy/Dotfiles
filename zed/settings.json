@@ -5,6 +5,7 @@
     "metrics": false
   },
   "vim_mode": true,
+  "relative_line_numbers": true,
   "autosave": "off",
   "format_on_save": "on",
   "buffer_font_family": "Fira Code",

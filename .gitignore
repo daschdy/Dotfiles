@@ -24,5 +24,7 @@ zsh/aliases_priv
 zsh/.zsh_sessions/
 zsh/.zcompdump
 
-# Ignore zed 
+# Ignore zed
 zed/.tmp*
+zed/comversations
+zed/embeddings
