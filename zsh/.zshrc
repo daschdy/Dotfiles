@@ -8,7 +8,7 @@ export EDITOR="nvim"
 source "$HOME/.config/zsh/aliases_pub"
 source "$HOME/.config/zsh/aliases_priv"
 
-# Syntax highlighting 
+# Syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # fzf
@@ -31,7 +31,7 @@ else
 fi
 unset __conda_setup
 
-# CARGO 
+# CARGO
 source "$HOME/.cargo/env"
 
 # STARSHIP

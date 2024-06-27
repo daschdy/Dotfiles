@@ -17,10 +17,10 @@
         "workspace::SendKeystrokes",
         "cmd-p"
       ],
-      "shift-k": [
-        "workspace::SendKeystrokes",
-        "cmd-shift-k"
-      ],
+      "shift-k": "editor::hover",
+      // "shift-k": [
+      // "editor::hover"
+      // ],
       "ctrl-h": "pane::ActivatePrevItem",
       "ctrl-l": "pane::ActivateNextItem"
     }
