@@ -2,25 +2,22 @@
   {
     "context": "Workspace",
     "bindings": {
-      "space n": "workspace::ToggleLeftDock",
-      "space t": "workspace::NewTerminal",
-      "space f f": [
-        "workspace::SendKeystrokes",
-        "cmd-p"
-      ]
+      // "space f f": [
+      //   "workspace::SendKeystrokes",
+      //   "cmd-p"
+      // ]
     }
   },
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
+      "space n": "workspace::ToggleLeftDock",
+      "space t": "workspace::NewTerminal",
       "space f f": [
         "workspace::SendKeystrokes",
         "cmd-p"
       ],
       "shift-k": "editor::hover",
-      // "shift-k": [
-      // "editor::hover"
-      // ],
       "ctrl-h": "pane::ActivatePrevItem",
       "ctrl-l": "pane::ActivateNextItem"
     }

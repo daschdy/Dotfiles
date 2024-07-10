@@ -20,9 +20,9 @@ config.hide_tab_bar_if_only_one_tab = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "Tokyo Night"
+config.color_scheme = "Gruvbox Dark (Gogh)"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.95
 
 config.inactive_pane_hsb = {
 	saturation = 0.9,
