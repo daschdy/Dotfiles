@@ -1,5 +1,5 @@
 {
-  "theme": "Gruvbox Dark Hard",
+  "theme": "One Dark",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -23,6 +23,10 @@
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false
+  },
+  "terminal": {
+    "font_family": "Fira Code",
+    "working_directory": "current_project_directory"
   },
   "formatter": "language_server",
   "project_panel": {
