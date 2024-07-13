@@ -22,7 +22,7 @@ config.default_cursor_style = "BlinkingBar"
 -- colorscheme
 config.color_scheme = "OneDark (base16)"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.95
+config.window_background_opacity = 0.97
 
 config.inactive_pane_hsb = {
 	saturation = 0.9,
