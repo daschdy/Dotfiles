@@ -89,64 +89,64 @@ config.colors = {
 	},
 }
 
--- make tmux functions
-config.leader = { key = "s", mods = "CTRL", timeout_milliseconds = 1000 }
-config.keys = {
-	-- Create a new tab in the same domain as the current pane.
-	-- This is usually what you want.
-	{
-		key = "t",
-		mods = "LEADER",
-		action = act.SpawnTab("CurrentPaneDomain"),
-	},
-	-- Close current tab
-	{
-		key = "w",
-		mods = "LEADER",
-		action = act.CloseCurrentTab({ confirm = true }),
-	},
-	-- Switching tabs with vim-keys
-	{
-		key = "H",
-		mods = "LEADER",
-		action = act.ActivateTabRelative(-1),
-	},
-	{
-		key = "L",
-		mods = "LEADER",
-		action = act.ActivateTabRelative(1),
-	},
-	-- Making Panes und make it like tmux
-	{
-		key = "%",
-		mods = "LEADER",
-		action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-	},
-	{
-		key = '"',
-		mods = "LEADER",
-		action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
-	},
-	{
-		key = "h",
-		mods = "LEADER",
-		action = act.ActivatePaneDirection("Left"),
-	},
-	{
-		key = "j",
-		mods = "LEADER",
-		action = act.ActivatePaneDirection("Down"),
-	},
-	{
-		key = "k",
-		mods = "LEADER",
-		action = act.ActivatePaneDirection("Up"),
-	},
-	{
-		key = "l",
-		mods = "LEADER",
-		action = act.ActivatePaneDirection("Right"),
-	},
-}
+-- -- make tmux functions
+-- config.leader = { key = "s", mods = "CTRL", timeout_milliseconds = 1000 }
+-- config.keys = {
+-- 	-- Create a new tab in the same domain as the current pane.
+-- 	-- This is usually what you want.
+-- 	{
+-- 		key = "t",
+-- 		mods = "LEADER",
+-- 		action = act.SpawnTab("CurrentPaneDomain"),
+-- 	},
+-- 	-- Close current tab
+-- 	{
+-- 		key = "w",
+-- 		mods = "LEADER",
+-- 		action = act.CloseCurrentTab({ confirm = true }),
+-- 	},
+-- 	-- Switching tabs with vim-keys
+-- 	{
+-- 		key = "H",
+-- 		mods = "LEADER",
+-- 		action = act.ActivateTabRelative(-1),
+-- 	},
+-- 	{
+-- 		key = "L",
+-- 		mods = "LEADER",
+-- 		action = act.ActivateTabRelative(1),
+-- 	},
+-- 	-- Making Panes und make it like tmux
+-- 	{
+-- 		key = "%",
+-- 		mods = "LEADER",
+-- 		action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+-- 	},
+-- 	{
+-- 		key = '"',
+-- 		mods = "LEADER",
+-- 		action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
+-- 	},
+-- 	{
+-- 		key = "h",
+-- 		mods = "LEADER",
+-- 		action = act.ActivatePaneDirection("Left"),
+-- 	},
+-- 	{
+-- 		key = "j",
+-- 		mods = "LEADER",
+-- 		action = act.ActivatePaneDirection("Down"),
+-- 	},
+-- 	{
+-- 		key = "k",
+-- 		mods = "LEADER",
+-- 		action = act.ActivatePaneDirection("Up"),
+-- 	},
+-- 	{
+-- 		key = "l",
+-- 		mods = "LEADER",
+-- 		action = act.ActivatePaneDirection("Right"),
+-- 	},
+-- }
 
 return config
