@@ -20,7 +20,7 @@ config.hide_tab_bar_if_only_one_tab = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "Ocean Dark (Gogh)"
+config.color_scheme = "Tokyo Night (Gogh)"
 config.term = "xterm-256color"
 config.window_background_opacity = 0.97
 
