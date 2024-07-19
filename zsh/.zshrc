@@ -11,6 +11,9 @@ source "$HOME/.config/zsh/aliases_priv"
 # Syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # fzf
 source <(fzf --zsh)
 
@@ -36,3 +39,6 @@ source "$HOME/.cargo/env"
 
 # STARSHIP
 eval "$(starship init zsh)"
+
+# Zoxide
+eval "$(zoxide init zsh)"

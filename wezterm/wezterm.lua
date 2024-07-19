@@ -22,7 +22,7 @@ config.default_cursor_style = "BlinkingBar"
 -- colorscheme
 config.color_scheme = "Moonfly (Gogh)"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.97
+config.window_background_opacity = 0.90
 
 config.inactive_pane_hsb = {
 	saturation = 0.9,
@@ -53,12 +53,12 @@ config.font_rules = {
 }
 
 -- tab bar settings
-local bg = "#1a1b26"
-local fg = "#61AFEF"
+local bg = "#000000"
+local fg = "#666666"
 local ifg = "#5C6370"
--- config.enable_tab_bar = true
+config.enable_tab_bar = true
 config.use_fancy_tab_bar = true
-config.hide_tab_bar_if_only_one_tab = true
+config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
