@@ -16,13 +16,13 @@ config.window_decorations = "RESIZE"
 config.window_close_confirmation = "NeverPrompt"
 config.audible_bell = "Disabled"
 config.adjust_window_size_when_changing_font_size = false
-config.hide_tab_bar_if_only_one_tab = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
 config.color_scheme = "Moonfly (Gogh)"
 config.term = "xterm-256color"
 config.window_background_opacity = 0.90
+config.macos_window_background_blur = 20
 
 config.inactive_pane_hsb = {
 	saturation = 0.9,
