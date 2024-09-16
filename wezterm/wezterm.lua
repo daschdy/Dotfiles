@@ -19,9 +19,9 @@ config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "Moonfly (Gogh)"
+config.color_scheme = "One Dark (Gogh)"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.90
+config.window_background_opacity = 0.95
 config.macos_window_background_blur = 20
 
 config.inactive_pane_hsb = {
@@ -56,13 +56,13 @@ config.font_rules = {
 local bg = "#000000"
 local fg = "#666666"
 local ifg = "#5C6370"
-config.enable_tab_bar = true
-config.use_fancy_tab_bar = true
+config.enable_tab_bar = false
+config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
-	font_size = 12,
+	font_size = 10,
 	active_titlebar_bg = bg,
 	inactive_titlebar_bg = bg,
 }
