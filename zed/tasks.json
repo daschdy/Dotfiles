@@ -6,5 +6,5 @@
   {
     "label": "typst_compile",
     "command": "typst compile $ZED_FILE && open '$ZED_DIRNAME/$ZED_STEM.pdf'"
-  },
+  }
 ]
