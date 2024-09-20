@@ -4,7 +4,7 @@
       "show_inline_completions": true
     }
   },
-  "theme": "Rosé Pine",
+  "theme": "One Dark",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -15,9 +15,9 @@
   "use_autoclose": false,
   "format_on_save": "on",
   "buffer_font_family": "Fira Code",
-  "ui_font_size": 16,
+  "ui_font_size": 14,
   "soft_wrap": "editor_width",
-  "buffer_font_size": 16,
+  "buffer_font_size": 14,
   "tab_size": 2,
   "cursor_blink": false,
   "scrollbar": {
@@ -54,6 +54,18 @@
   },
   "assistant": {
     "version": "2",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4"
+    },
     "button": false
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15
   }
 }

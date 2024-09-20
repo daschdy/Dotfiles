@@ -1,23 +1,14 @@
 [
   {
-    "context": "Workspace",
-    "bindings": {
-      // "space f f": [
-      //   "workspace::SendKeystrokes",
-      //   "cmd-p"
-      // ]
-    }
-  },
-  {
     "context": "Editor && vim_mode == normal",
     "bindings": {
       "space n": "workspace::ToggleLeftDock",
-      "space t": "workspace::NewTerminal",
+      "space t": "workspace::ToggleBottomDock",
       "space f f": [
         "workspace::SendKeystrokes",
         "cmd-p"
       ],
-      "shift-k": "editor::hover",
+      "shift-k": "editor::Hover",
       "ctrl-h": "pane::ActivatePrevItem",
       "ctrl-l": "pane::ActivateNextItem"
     }

@@ -19,7 +19,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "One Dark (Gogh)"
+config.color_scheme = "OneDark (base16)"
 config.term = "xterm-256color"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 20
