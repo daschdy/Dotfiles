@@ -28,3 +28,4 @@ zsh/.zcompdump
 zed/.tmp*
 zed/comversations
 zed/embeddings
+zed/prompts/*
