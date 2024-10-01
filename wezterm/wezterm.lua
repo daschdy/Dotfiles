@@ -19,7 +19,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "OneDark (base16)"
+config.color_scheme = "Tokyo Night (Gogh)"
 config.term = "xterm-256color"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 20
@@ -30,7 +30,7 @@ config.inactive_pane_hsb = {
 }
 
 -- Font settings
-config.font_size = 16
+config.font_size = 14
 config.line_height = 1.3
 config.font = wezterm.font({ family = "Fira Code", weight = "Regular" })
 config.bold_brightens_ansi_colors = true
