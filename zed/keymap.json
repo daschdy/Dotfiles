@@ -10,7 +10,8 @@
       ],
       "shift-k": "editor::Hover",
       "ctrl-h": "pane::ActivatePrevItem",
-      "ctrl-l": "pane::ActivateNextItem"
+      "ctrl-l": "pane::ActivateNextItem",
+      "space m p": "markdown::OpenPreviewToTheSide"
     }
   },
   {
