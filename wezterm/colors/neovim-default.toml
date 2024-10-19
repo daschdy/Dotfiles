@@ -1,0 +1,34 @@
+[colors]
+background = '#14161b'       # NvimDarkGrey2
+cursor_bg = '#e0e2ea'        # NvimLightGrey2
+cursor_border = '#e0e2ea'    # NvimLightGrey2
+cursor_fg = '#14161b'        # NvimDarkGrey2
+foreground = '#e0e2ea'       # NvimLightGrey2
+selection_bg = '#2c2e33'     # NvimDarkGrey3
+selection_fg = '#14161b'     # NvimDarkGrey2
+
+ansi = [
+    '#07080d',  # NvimDarkGrey1 (Black)
+    '#590008',  # NvimDarkRed (Red)
+    '#005523',  # NvimDarkGreen (Green)
+    '#6b5300',  # NvimDarkYellow (Yellow)
+    '#004c63',  # NvimDarkBlue (Blue)
+    '#470045',  # NvimDarkMagenta (Magenta)
+    '#007373',  # NvimDarkCyan (Cyan)
+    '#4f5258',  # NvimDarkGrey4 (White)
+]
+
+brights = [
+    '#07080d',  # NvimDarkGrey1 (Bright Black)
+    '#ffc0b9',  # NvimLightRed (Bright Red)
+    '#b4f6c0',  # NvimLightGreen (Bright Green)
+    '#fce094',  # NvimLightYellow (Bright Yellow)
+    '#a6dbff',  # NvimLightBlue (Bright Blue)
+    '#ffcaff',  # NvimLightMagenta (Bright Magenta)
+    '#8cf8f7',  # NvimLightCyan (Bright Cyan)
+    '#c4c6cd',  # NvimLightGrey3 (Bright White)
+]
+
+[colors.indexed]
+16 = '#6b5300'  # NvimDarkYellow
+17 = '#590008'  # NvimDarkRed

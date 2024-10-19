@@ -19,9 +19,14 @@ config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "nord"
+config.color_schemes = {
+	["neovim-default"] = wezterm.color.load_scheme(
+		"/Users/dustin/Developer/Dotfiles/wezterm/colors/neovim-default.toml"
+	),
+}
+config.color_scheme = "neovim-default"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.95
+config.window_background_opacity = 1.0
 config.macos_window_background_blur = 20
 
 config.inactive_pane_hsb = {
@@ -53,9 +58,9 @@ config.font_rules = {
 }
 
 -- tab bar settings
-local bg = "#2e3440"
-local ifg = "#d8dee9" -- inactive fg
-local fg = "#eceff4"
+local bg = "#14161b"
+local ifg = "#e0e2ea" -- inactive fg
+local fg = "#2c2e33"
 config.enable_tab_bar = true
 config.use_fancy_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
