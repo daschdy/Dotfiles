@@ -53,16 +53,16 @@ config.font_rules = {
 }
 
 -- tab bar settings
-local bg = "#000000"
-local fg = "#666666"
-local ifg = "#5C6370"
-config.enable_tab_bar = false
-config.use_fancy_tab_bar = false
+local bg = "#1a1b26"
+local ifg = "#565f89" -- inactive fg
+local fg = "#9ece6a"
+config.enable_tab_bar = true
+config.use_fancy_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
-	font_size = 10,
+	font_size = 12,
 	active_titlebar_bg = bg,
 	inactive_titlebar_bg = bg,
 }
@@ -89,64 +89,49 @@ config.colors = {
 	},
 }
 
--- -- make tmux functions
--- config.leader = { key = "s", mods = "CTRL", timeout_milliseconds = 1000 }
--- config.keys = {
--- 	-- Create a new tab in the same domain as the current pane.
--- 	-- This is usually what you want.
--- 	{
--- 		key = "t",
--- 		mods = "LEADER",
--- 		action = act.SpawnTab("CurrentPaneDomain"),
--- 	},
--- 	-- Close current tab
--- 	{
--- 		key = "w",
--- 		mods = "LEADER",
--- 		action = act.CloseCurrentTab({ confirm = true }),
--- 	},
--- 	-- Switching tabs with vim-keys
--- 	{
--- 		key = "H",
--- 		mods = "LEADER",
--- 		action = act.ActivateTabRelative(-1),
--- 	},
--- 	{
--- 		key = "L",
--- 		mods = "LEADER",
--- 		action = act.ActivateTabRelative(1),
--- 	},
--- 	-- Making Panes und make it like tmux
--- 	{
--- 		key = "%",
--- 		mods = "LEADER",
--- 		action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
--- 	},
--- 	{
--- 		key = '"',
--- 		mods = "LEADER",
--- 		action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
--- 	},
--- 	{
--- 		key = "h",
--- 		mods = "LEADER",
--- 		action = act.ActivatePaneDirection("Left"),
--- 	},
--- 	{
--- 		key = "j",
--- 		mods = "LEADER",
--- 		action = act.ActivatePaneDirection("Down"),
--- 	},
--- 	{
--- 		key = "k",
--- 		mods = "LEADER",
--- 		action = act.ActivatePaneDirection("Up"),
--- 	},
--- 	{
--- 		key = "l",
--- 		mods = "LEADER",
--- 		action = act.ActivatePaneDirection("Right"),
--- 	},
--- }
+config.leader = { key = "w", mods = "CTRL", timeout_milliseconds = 1000 }
+config.keys = {
+	{
+		key = "h",
+		mods = "LEADER",
+		action = act.ActivateTabRelative(-1),
+	},
+	{
+		key = "l",
+		mods = "LEADER",
+		action = act.ActivateTabRelative(1),
+	},
+	-- Making Panes und make it like tmux
+	{
+		key = "%",
+		mods = "LEADER",
+		action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
+	},
+	{
+		key = '"',
+		mods = "LEADER",
+		action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
+	},
+	{
+		key = "H",
+		mods = "LEADER",
+		action = act.ActivatePaneDirection("Left"),
+	},
+	{
+		key = "J",
+		mods = "LEADER",
+		action = act.ActivatePaneDirection("Down"),
+	},
+	{
+		key = "K",
+		mods = "LEADER",
+		action = act.ActivatePaneDirection("Up"),
+	},
+	{
+		key = "L",
+		mods = "LEADER",
+		action = act.ActivatePaneDirection("Right"),
+	},
+}
 
 return config
