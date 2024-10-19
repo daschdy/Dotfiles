@@ -19,7 +19,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_scheme = "Tokyo Night (Gogh)"
+config.color_scheme = "nord"
 config.term = "xterm-256color"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 20
@@ -53,9 +53,9 @@ config.font_rules = {
 }
 
 -- tab bar settings
-local bg = "#1a1b26"
-local ifg = "#565f89" -- inactive fg
-local fg = "#9ece6a"
+local bg = "#2e3440"
+local ifg = "#d8dee9" -- inactive fg
+local fg = "#eceff4"
 config.enable_tab_bar = true
 config.use_fancy_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
