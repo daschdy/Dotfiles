@@ -19,12 +19,12 @@ config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingBar"
 
 -- colorscheme
-config.color_schemes = {
-	["neovim-default"] = wezterm.color.load_scheme(
-		"/Users/dustin/Developer/Dotfiles/wezterm/colors/neovim-default.toml"
-	),
-}
-config.color_scheme = "neovim-default"
+-- config.color_schemes = {
+-- 	["neovim-default"] = wezterm.color.load_scheme(
+-- 		"/Users/dustin/Developer/Dotfiles/wezterm/colors/neovim-default.toml"
+-- 	),
+-- }
+-- config.color_scheme = "neovim-default"
 config.term = "xterm-256color"
 config.window_background_opacity = 1.0
 config.macos_window_background_blur = 20
@@ -58,41 +58,41 @@ config.font_rules = {
 }
 
 -- tab bar settings
-local bg = "#14161b"
-local ifg = "#e0e2ea" -- inactive fg
-local fg = "#2c2e33"
+-- local bg = "#14161b"
+-- local ifg = "#e0e2ea" -- inactive fg
+-- local fg = "#2c2e33"
 config.enable_tab_bar = true
-config.use_fancy_tab_bar = true
+-- config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
 	font_size = 12,
-	active_titlebar_bg = bg,
-	inactive_titlebar_bg = bg,
+	-- active_titlebar_bg = bg,
+	-- inactive_titlebar_bg = bg,
 }
 
-config.colors = {
-	tab_bar = {
-		active_tab = {
-			bg_color = bg,
-			fg_color = fg,
-		},
-		inactive_tab = {
-			bg_color = bg,
-			fg_color = ifg,
-		},
-		inactive_tab_hover = {
-			bg_color = bg,
-			fg_color = ifg,
-		},
-		new_tab = {
-			bg_color = bg,
-			fg_color = ifg,
-		},
-		inactive_tab_edge = bg,
-	},
-}
+-- config.colors = {
+-- 	tab_bar = {
+-- 		active_tab = {
+-- 			bg_color = bg,
+-- 			fg_color = fg,
+-- 		},
+-- 		inactive_tab = {
+-- 			bg_color = bg,
+-- 			fg_color = ifg,
+-- 		},
+-- 		inactive_tab_hover = {
+-- 			bg_color = bg,
+-- 			fg_color = ifg,
+-- 		},
+-- 		new_tab = {
+-- 			bg_color = bg,
+-- 			fg_color = ifg,
+-- 		},
+-- 		inactive_tab_edge = bg,
+-- 	},
+-- }
 
 config.leader = { key = "w", mods = "CTRL", timeout_milliseconds = 1000 }
 config.keys = {
