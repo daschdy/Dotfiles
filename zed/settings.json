@@ -2,9 +2,12 @@
   "languages": {
     "Typst": {
       "show_inline_completions": true
+    },
+    "C": {
+      "tab_size": 4
     }
   },
-  "theme": "Rosé Pine",
+  "theme": "macOS Classic Dark",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -41,7 +44,7 @@
   },
   "formatter": "language_server",
   "project_panel": {
-    "button": false,
+    "button": true,
     "dock": "left",
     "git_status": true,
     "default_width": 200
@@ -60,9 +63,9 @@
     "version": "2",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4"
+      "model": "gpt-4o"
     },
-    "button": false
+    "button": true
   },
   "indent_guides": {
     "enabled": true,

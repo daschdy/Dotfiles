@@ -12,7 +12,7 @@ end)
 -- general settings
 config.enable_scroll_bar = false
 config.scrollback_lines = 10000
-config.window_decorations = "RESIZE"
+-- config.window_decorations = "RESIZE"
 config.window_close_confirmation = "NeverPrompt"
 config.audible_bell = "Disabled"
 config.adjust_window_size_when_changing_font_size = false
