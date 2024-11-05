@@ -1,78 +1,78 @@
 {
-    "theme": "One Dark",
-    "telemetry": {
-        "diagnostics": false,
-        "metrics": false
+  "theme": "Xcode Default Darker",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "autosave": "off",
+  "use_autoclose": false,
+  "format_on_save": "off",
+  "buffer_font_family": "Fira Code",
+  "ui_font_size": 14,
+  "soft_wrap": "editor_width",
+  "buffer_font_size": 14,
+  "tab_size": 2,
+  "cursor_blink": false,
+  "scrollbar": {
+    "show": "never"
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "terminal": {
+    "font_family": "Fira Code",
+    "working_directory": "current_project_directory"
+  },
+  "formatter": "language_server",
+  "project_panel": {
+    "button": true,
+    "dock": "left",
+    "git_status": true,
+    "default_width": 200
+  },
+  "restore_on_startup": "none",
+  "chat_panel": {
+    "button": true
+  },
+  "collaboration_panel": {
+    "button": true
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "assistant": {
+    "version": "2",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
     },
-    "vim_mode": true,
-    "relative_line_numbers": true,
-    "autosave": "off",
-    "use_autoclose": false,
-    "format_on_save": "on",
-    "buffer_font_family": "Fira Code",
-    "ui_font_size": 14,
-    "soft_wrap": "editor_width",
-    "buffer_font_size": 14,
-    "tab_size": 4,
-    "cursor_blink": false,
-    "scrollbar": {
-        "show": "never"
+    "button": true
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "fixed"
+  },
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15
+  },
+  "languages": {
+    "Typst": {
+      "show_inline_completions": true
     },
-    "tabs": {
-        "file_icons": true,
-        "git_status": true
-    },
-    "tab_bar": {
-        "show": true,
-        "show_nav_history_buttons": false
-    },
-    "toolbar": {
-        "breadcrumbs": false,
-        "quick_actions": false
-    },
-    "terminal": {
-        "font_family": "Fira Code",
-        "working_directory": "current_project_directory"
-    },
-    "formatter": "language_server",
-    "project_panel": {
-        "button": true,
-        "dock": "left",
-        "git_status": true,
-        "default_width": 200
-    },
-    "restore_on_startup": "none",
-    "chat_panel": {
-        "button": false
-    },
-    "collaboration_panel": {
-        "button": false
-    },
-    "notification_panel": {
-        "button": false
-    },
-    "assistant": {
-        "version": "2",
-        "default_model": {
-            "provider": "copilot_chat",
-            "model": "gpt-4o"
-        },
-        "button": true
-    },
-    "indent_guides": {
-        "enabled": true,
-        "coloring": "indent_aware"
-    },
-    "centered_layout": {
-        "left_padding": 0.15,
-        "right_padding": 0.15
-    },
-    "languages": {
-        "Typst": {
-            "show_inline_completions": true
-        },
-        "C": {
-            "tab_size": 4
-        }
+    "C": {
+      "tab_size": 2
     }
+  }
 }
