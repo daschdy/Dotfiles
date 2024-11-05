@@ -1,0 +1,27 @@
+[general]
+live_config_reload = true
+
+[env]
+TERM = "alacritty"
+
+[window]
+opacity = 0.95
+blur = true
+startup_mode = "Maximized"
+decorations_theme_variant = "Dark"
+
+[font]
+size = 14.0 
+
+[font.normal]
+family = "Fira Code"
+style = "Regular"
+
+[font.bold]
+family = "Maple Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Maple Mono"
+style = "Italic"
+

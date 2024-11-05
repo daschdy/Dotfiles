@@ -26,7 +26,7 @@ config.default_cursor_style = "BlinkingBar"
 -- }
 -- config.color_scheme = "neovim-default"
 config.term = "xterm-256color"
-config.window_background_opacity = 1.0
+config.window_background_opacity = 0.9
 config.macos_window_background_blur = 20
 
 config.inactive_pane_hsb = {
@@ -63,7 +63,7 @@ config.font_rules = {
 -- local fg = "#2c2e33"
 config.enable_tab_bar = true
 -- config.use_fancy_tab_bar = false
-config.hide_tab_bar_if_only_one_tab = false
+config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = false
 config.window_frame = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
