@@ -26,7 +26,7 @@ config.default_cursor_style = "BlinkingBar"
 -- }
 -- config.color_scheme = "neovim-default"
 config.term = "xterm-256color"
-config.window_background_opacity = 0.9
+config.window_background_opacity = 1.0
 config.macos_window_background_blur = 20
 
 config.inactive_pane_hsb = {
