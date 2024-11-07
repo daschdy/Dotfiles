@@ -13,7 +13,7 @@
   "ui_font_size": 14,
   "soft_wrap": "editor_width",
   "buffer_font_size": 14,
-  "tab_size": 2,
+  "tab_size": 4,
   "cursor_blink": false,
   "scrollbar": {
     "show": "never"
@@ -31,7 +31,7 @@
     "quick_actions": false
   },
   "terminal": {
-    "font_family": "Fira Code",
+    "font_family": "GeistMono Nerd Font"
     "working_directory": "current_project_directory"
   },
   "formatter": "language_server",
@@ -72,7 +72,7 @@
       "show_inline_completions": true
     },
     "C": {
-      "tab_size": 2
+      "tab_size": 4
     }
   }
 }

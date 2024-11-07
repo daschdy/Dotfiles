@@ -39,6 +39,3 @@ source "$HOME/.cargo/env"
 
 # STARSHIP
 eval "$(starship init zsh)"
-
-# Zoxide
-eval "$(zoxide init zsh)"

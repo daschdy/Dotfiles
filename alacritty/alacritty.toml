@@ -2,26 +2,28 @@
 live_config_reload = true
 
 [env]
-TERM = "alacritty"
+TERM = "xterm-256color"
 
 [window]
-opacity = 0.95
-blur = true
 startup_mode = "Maximized"
-decorations_theme_variant = "Dark"
+padding.x = 10 
+padding.y = 10 
 
 [font]
-size = 14.0 
+size = 16.0
 
 [font.normal]
-family = "Fira Code"
+family = "GeistMono Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "Maple Mono"
-style = "Bold Italic"
+family = "GeistMono Nerd Font"
+style = "Regular"
 
 [font.italic]
-family = "Maple Mono"
+family = "GeistMono Nerd Font"
 style = "Italic"
+
+[selection]
+save_to_clipboard = true
 
