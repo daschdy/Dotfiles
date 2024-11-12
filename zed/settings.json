@@ -9,7 +9,7 @@
   "autosave": "off",
   "use_autoclose": false,
   "format_on_save": "off",
-  "buffer_font_family": "Fira Code",
+  "buffer_font_family": "GeistMono Nerd Font",
   "ui_font_size": 14,
   "soft_wrap": "editor_width",
   "buffer_font_size": 14,
@@ -31,7 +31,7 @@
     "quick_actions": false
   },
   "terminal": {
-    "font_family": "GeistMono Nerd Font"
+    "font_family": "GeistMono Nerd Font",
     "working_directory": "current_project_directory"
   },
   "formatter": "language_server",

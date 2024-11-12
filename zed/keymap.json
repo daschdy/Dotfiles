@@ -17,19 +17,19 @@
   {
     "context": "Dock",
     "bindings": {
-      "ctrl-w h": [
+      "ctrl-b h": [
         "workspace::ActivatePaneInDirection",
         "Left"
       ],
-      "ctrl-w l": [
+      "ctrl-b l": [
         "workspace::ActivatePaneInDirection",
         "Right"
       ],
-      "ctrl-w k": [
+      "ctrl-b k": [
         "workspace::ActivatePaneInDirection",
         "Up"
       ],
-      "ctrl-w j": [
+      "ctrl-b j": [
         "workspace::ActivatePaneInDirection",
         "Down"
       ]
