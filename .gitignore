@@ -26,6 +26,6 @@ zsh/.zcompdump
 
 # Ignore zed
 zed/.tmp*
-zed/comversationsi/*
+zed/conversations
 zed/embeddings/*.mdb
 zed/prompts/*.mdb
