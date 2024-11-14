@@ -8,6 +8,8 @@ TERM = "xterm-256color"
 startup_mode = "Maximized"
 padding.x = 10 
 padding.y = 10 
+opacity = 0.9
+blur = true
 
 [font]
 size = 16.0
@@ -26,4 +28,6 @@ style = "Italic"
 
 [selection]
 save_to_clipboard = true
+
+[terminal]
 
