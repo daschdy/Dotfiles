@@ -1,5 +1,6 @@
 [general]
 live_config_reload = true
+import = ["./one_dark.toml"]
 
 [env]
 TERM = "xterm-256color"
