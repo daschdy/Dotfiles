@@ -10,6 +10,7 @@ padding.x = 10
 padding.y = 10 
 opacity = 0.9
 blur = true
+option_as_alt = "OnlyLeft"
 
 [font]
 size = 16.0
@@ -28,6 +29,3 @@ style = "Italic"
 
 [selection]
 save_to_clipboard = true
-
-[terminal]
-
