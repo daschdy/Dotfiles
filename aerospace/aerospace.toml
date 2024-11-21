@@ -60,7 +60,8 @@ alt-shift-t = 'move-node-to-workspace t'
 alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
-alt-shift-semicolon = 'mode service'
+alt-s = 'mode service'
+alt-x = 'mode x'
 
 [mode.service.binding]
 esc = ['reload-config', 'mode main']
@@ -73,6 +74,8 @@ alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
-
+[mode.x.binding]
+esc = 'mode main'
+alt-esc = 'mode main'
 
 
