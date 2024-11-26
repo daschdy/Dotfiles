@@ -1,4 +1,18 @@
 {
+  "ssh_connections": [
+    {
+      "host": "cip6c5.cip.cs.fau.de",
+      "username": "zo04maro",
+      "projects": [
+        {
+          "paths": [
+            "~/Repo"
+          ]
+        }
+      ],
+      "nickname": "FAU CIP"
+    }
+  ],
   "theme": "Tokyo Night",
   "telemetry": {
     "diagnostics": false,
