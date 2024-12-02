@@ -9,8 +9,8 @@ TERM = "xterm-256color"
 startup_mode = "Maximized"
 padding.x = 10 
 padding.y = 10 
-opacity = 0.9
-blur = true
+opacity = 1.0
+# blur = true
 option_as_alt = "OnlyLeft"
 dynamic_title = true
 

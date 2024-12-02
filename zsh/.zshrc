@@ -2,7 +2,7 @@
 autoload -Uz compinit
 compinit
 
-export TERMINAL="wezterm"
+export TERMINAL="alacritty"
 export EDITOR="nvim"
 
 source "$HOME/.config/zsh/aliases_pub"
@@ -39,3 +39,6 @@ source "$HOME/.cargo/env"
 
 # STARSHIP
 eval "$(starship init zsh)"
+
+# Homebrew
+export PATH="/opt/homebrew/bin:$PATH"

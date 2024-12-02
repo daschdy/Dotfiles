@@ -24,9 +24,9 @@
   "use_autoclose": false,
   "format_on_save": "off",
   "buffer_font_family": "GeistMono Nerd Font",
-  "ui_font_size": 14,
+  "ui_font_size": 16,
   "soft_wrap": "editor_width",
-  "buffer_font_size": 14,
+  "buffer_font_size": 16,
   "tab_size": 4,
   "cursor_blink": false,
   "scrollbar": {
@@ -75,7 +75,7 @@
   },
   "indent_guides": {
     "enabled": true,
-    "coloring": "fixed"
+    "coloring": "indent_aware"
   },
   "centered_layout": {
     "left_padding": 0.15,
@@ -87,6 +87,18 @@
     },
     "C": {
       "tab_size": 4
+    },
+    "CPP": {
+      "tab_size": 4
     }
-  }
+  },
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "path": "/usr/bin/clangd",
+        "arguments": []
+      }
+    }
+  },
+  "show_whitespaces": "all",
 }
