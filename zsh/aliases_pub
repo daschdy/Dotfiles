@@ -1,5 +1,3 @@
-alias vim='nvim'
-alias vi='nvim'
 alias ll='ls -la'
 alias update='$HOME/Developer/Dotfiles/scripts/update.sh'
 alias python='python3'
