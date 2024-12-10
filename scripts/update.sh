@@ -17,10 +17,5 @@ echo ""
 brew cleanup 
 brew autoremove 
 
-## SKDMAN 
-echo "Updating sdkman ..."
-echo ""
-sdk update
-
 echo ""
 echo "You are up to date!!!"
