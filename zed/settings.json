@@ -12,7 +12,7 @@
       ]
     }
   ],
-  "theme": "One Dark",
+  "theme": "Adwaita Pastel Dark",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -23,9 +23,9 @@
   "use_autoclose": false,
   "format_on_save": "off",
   "buffer_font_family": "GeistMono Nerd Font",
-  "ui_font_size": 16,
-  "soft_wrap": "editor_width",
-  "buffer_font_size": 16,
+  "ui_font_size": 14.5,
+  // "soft_wrap": "editor_width",
+  "buffer_font_size": 14.5,
   "tab_size": 4,
   "cursor_blink": false,
   "scrollbar": {
@@ -74,7 +74,7 @@
   },
   "indent_guides": {
     "enabled": true,
-    "coloring": "indent_aware"
+    // "coloring": "indent_aware"
   },
   "centered_layout": {
     "left_padding": 0.15,
@@ -99,5 +99,4 @@
       }
     }
   }
-  // "show_whitespaces": "all",
 }
