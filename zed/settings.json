@@ -12,7 +12,7 @@
       ]
     }
   ],
-  "theme": "Adwaita Pastel Dark",
+  "theme": "Rosé Pine",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -22,9 +22,7 @@
   "autosave": "off",
   "use_autoclose": false,
   "format_on_save": "off",
-  // "buffer_font_family": "GeistMono Nerd Font",
   "ui_font_size": 14.5,
-  // "soft_wrap": "editor_width",
   "buffer_font_size": 14.5,
   "tab_size": 4,
   "cursor_blink": false,
@@ -44,7 +42,6 @@
     "quick_actions": false
   },
   "terminal": {
-   // "font_family": "GeistMono Nerd Font",
     "working_directory": "current_project_directory"
   },
   "formatter": "language_server",
@@ -55,9 +52,6 @@
     "default_width": 200
   },
   "restore_on_startup": "none",
-  "chat_panel": {
-    "button": true
-  },
   "collaboration_panel": {
     "button": true
   },
@@ -73,8 +67,7 @@
     "button": true
   },
   "indent_guides": {
-    "enabled": true,
-    // "coloring": "indent_aware"
+    "enabled": true
   },
   "centered_layout": {
     "left_padding": 0.15,
@@ -91,12 +84,4 @@
       "tab_size": 4
     }
   },
-  "lsp": {
-    "clangd": {
-      "binary": {
-        "path": "/usr/bin/clangd",
-        "arguments": []
-      }
-    }
-  }
 }
