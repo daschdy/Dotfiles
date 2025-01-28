@@ -1,87 +1,87 @@
 {
-  "ssh_connections": [
-    {
-      "host": "cip1c4.cip.cs.fau.de",
-      "username": "zo04maro",
-      "projects": [
+    "ssh_connections": [
         {
-          "paths": [
-            "~/Repo"
-          ]
+            "host": "cip1c4.cip.cs.fau.de",
+            "username": "zo04maro",
+            "projects": [
+                {
+                    "paths": [
+                        "~/Repo"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "theme": "Rosé Pine",
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "vim_mode": true,
-  "relative_line_numbers": true,
-  "autosave": "off",
-  "use_autoclose": false,
-  "format_on_save": "off",
-  "ui_font_size": 14.5,
-  "buffer_font_size": 14.5,
-  "tab_size": 4,
-  "cursor_blink": false,
-  "scrollbar": {
-    "show": "never"
-  },
-  "tabs": {
-    "file_icons": true,
-    "git_status": true
-  },
-  "tab_bar": {
-    "show": true,
-    "show_nav_history_buttons": false
-  },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false
-  },
-  "terminal": {
-    "working_directory": "current_project_directory"
-  },
-  "formatter": "language_server",
-  "project_panel": {
-    "button": true,
-    "dock": "left",
-    "git_status": true,
-    "default_width": 200
-  },
-  "restore_on_startup": "none",
-  "collaboration_panel": {
-    "button": true
-  },
-  "notification_panel": {
-    "button": false
-  },
-  "assistant": {
-    "version": "2",
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
+    ],
+    "theme": "One Dark",
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
     },
-    "button": true
-  },
-  "indent_guides": {
-    "enabled": true
-  },
-  "centered_layout": {
-    "left_padding": 0.15,
-    "right_padding": 0.15
-  },
-  "languages": {
-    "Typst": {
-      "show_inline_completions": true
+    "vim_mode": true,
+    "relative_line_numbers": true,
+    "autosave": "off",
+    "use_autoclose": false,
+    "format_on_save": "off",
+    "ui_font_size": 14.5,
+    "buffer_font_size": 14.5,
+    "tab_size": 4,
+    "cursor_blink": false,
+    "scrollbar": {
+        "show": "never"
     },
-    "C": {
-      "tab_size": 4
+    "tabs": {
+        "file_icons": true,
+        "git_status": true
     },
-    "CPP": {
-      "tab_size": 4
-    }
-  },
+    "tab_bar": {
+        "show": true,
+        "show_nav_history_buttons": false
+    },
+    "toolbar": {
+        "breadcrumbs": false,
+        "quick_actions": false
+    },
+    "terminal": {
+        "working_directory": "current_project_directory"
+    },
+    "formatter": "language_server",
+    "project_panel": {
+        "button": true,
+        "dock": "left",
+        "git_status": true,
+        "default_width": 200
+    },
+    "restore_on_startup": "none",
+    "collaboration_panel": {
+        "button": true
+    },
+    "notification_panel": {
+        "button": false
+    },
+    "assistant": {
+        "version": "2",
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-3-5-sonnet-latest"
+        },
+        "button": true
+    },
+    "indent_guides": {
+        "enabled": true
+    },
+    "centered_layout": {
+        "left_padding": 0.15,
+        "right_padding": 0.15
+    },
+    "languages": {
+        "Typst": {
+            "show_inline_completions": true
+        },
+        "C": {
+            "tab_size": 4
+        },
+        "CPP": {
+            "tab_size": 4
+        }
+    },
 }
