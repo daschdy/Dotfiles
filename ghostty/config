@@ -1,2 +1,5 @@
 font-size = 14.5
-theme = OneHalfDark 
+theme = OneHalfDark
+background-opacity = 0.9
+background-blur = true
+term = xterm

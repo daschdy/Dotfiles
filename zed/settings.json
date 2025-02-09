@@ -12,7 +12,7 @@
             ]
         }
     ],
-    "theme": "One Dark",
+    "theme": "One Dark Pro",
     "telemetry": {
         "diagnostics": false,
         "metrics": false
@@ -23,7 +23,7 @@
     "use_autoclose": false,
     "format_on_save": "off",
     "ui_font_size": 14.5,
-    "buffer_font_size": 14.5,
+    "buffer_font_size": null,
     "tab_size": 4,
     "cursor_blink": false,
     "scrollbar": {
@@ -61,8 +61,8 @@
     "assistant": {
         "version": "2",
         "default_model": {
-            "provider": "zed.dev",
-            "model": "claude-3-5-sonnet-latest"
+            "provider": "copilot_chat",
+            "model": "gpt-4o"
         },
         "button": true
     },
