@@ -65,6 +65,18 @@ alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 alt-s = 'mode s'
 alt-x = 'mode x'
 
+[workspace-to-monitor-force-assignment]
+1 = 'main'
+2 = 'main' 
+3 = 'main' 
+4 = 'main' 
+5 = ['secondary', 'main']
+q = 'main'
+w = 'main'
+e = 'main'   
+r = 'main'
+t = 'main' 
+
 [mode.s.binding]
 esc = ['reload-config', 'mode main']
 r = ['flatten-workspace-tree', 'mode main'] # reset layout
