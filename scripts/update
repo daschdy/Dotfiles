@@ -1,8 +1,5 @@
 #!/bin/zsh
 
-## Sourcing .zshrc for sdkman
-source ~/Developer/Dotfiles/zsh/.zshrc
-
 ## Update Homebrew 
 echo "Updating Homebrew ..."
 echo ""
@@ -14,7 +11,7 @@ brew upgrade
 
 echo "Cleaning Homebrew ..."
 echo ""
-brew cleanup 
+brew cleanup --prune=all
 brew autoremove 
 
 echo ""

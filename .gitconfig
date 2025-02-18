@@ -1,0 +1,8 @@
+[user]
+	name = Dustin Heither
+	email = dustin.heither@gmail.com
+[core]
+	editor = nvim
+	pager = "diff-so-fancy | less --tabs=4 -RF"
+[interactive]
+	diffFilter = "diff-so-fancy --patch"
