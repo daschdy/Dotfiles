@@ -6,16 +6,18 @@ PATH="$PATH":"$HOME/.local/scripts/"
 bindkey -s ^f "tmux-sessionizer\n"
 
 alias ll="ls -la"
-alias dev="cd /Users/dustin/Developer"
-alias vc="cd /Users/dustin/Developer/nvim"
+alias dev="cd $HOME/Developer"
+alias dot="cd $HOME/Developer/Dotfiles"
+alias vc="cd $HOME/Developer/nvim"
 alias cip="ssh zo04maro@cip1c4.cip.cs.fau.de"
-alias cloud="cd /Users/dustin/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias cloud="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias szsh="source $HOME/Developer/Dotfiles/zsh/.zshrc"
 
 # Syntax highlighting
-# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Autosuggestions
-# source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # fzf
 source <(fzf --zsh)
