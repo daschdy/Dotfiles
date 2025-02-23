@@ -20,7 +20,7 @@ Temporary Items
 # Ignore zsh
 zsh/.zhistory
 zsh/.zsh_history
-zsh/aliases_priv
+zsh/alias_private
 zsh/.zsh_sessions/
 zsh/.zcompdump
 
