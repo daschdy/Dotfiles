@@ -2,8 +2,8 @@ term = xterm
 
 font-size = 14.5
 adjust-cell-height = 15%
-theme = Aura
-background-opacity = 1.0
+theme = NvimDark
+background-opacity = 0.95
 background-blur = false
 
 cursor-style = bar

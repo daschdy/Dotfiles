@@ -1,0 +1,21 @@
+#!/bin/zsh
+
+DEVELOPER="Developer"
+REPO_NAME="Dotfiles"
+
+if command -v brew &>/dev/null; then
+    echo "Homebrew is installed!"
+else
+    echo "Homebrew is not installed."
+    echo "Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+if [[ ! -d "$HOME/$FOLDER_NAME/$REPO_NAME" ]]; then
+    mkdir "$HOME/$FOLDER_NAME"
+    echo "Folder '$HOME/$FOLDER_NAME' created."
+    echo "Cloning repository..."
+    git clone git@github.com:daschdy/Dotfiles.git "$HOME/$FOLDER_NAME/"
+else
+    echo "Folder '$HOME/$FOLDER_NAME/$REPO_NAME' already exists."
+fi

@@ -9,9 +9,9 @@ alias ll="ls -la"
 alias dev="cd $HOME/Developer"
 alias dot="cd $HOME/Developer/Dotfiles"
 alias vc="cd $HOME/Developer/nvim"
-alias cip="ssh zo04maro@cip1c4.cip.cs.fau.de"
-alias cloud="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias szsh="source $HOME/Developer/Dotfiles/zsh/.zshrc"
+
+source $HOME/Developer/Dotfiles/zsh/alias_private
 
 # Syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
