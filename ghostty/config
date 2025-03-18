@@ -2,9 +2,9 @@ term = xterm
 
 font-size = 14.5
 adjust-cell-height = 15%
-theme = NvimDark
+theme = OneHalfDark
 background-opacity = 0.95
-background-blur = false
+background-blur = true
 
 cursor-style = bar
 cursor-click-to-move = true

@@ -3,7 +3,8 @@
 ## Update Homebrew 
 echo "Updating Homebrew ..."
 echo ""
-brew update 
+# brew update 
+brew bundle install
 
 echo "Updating Homebrew Packages..."
 echo ""

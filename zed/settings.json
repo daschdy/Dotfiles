@@ -1,4 +1,5 @@
 {
+    "icon_theme": "Zed (Default)",
     "ssh_connections": [
         {
             "host": "cip1c4.cip.cs.fau.de",
@@ -75,7 +76,7 @@
     },
     "languages": {
         "Typst": {
-            "show_inline_completions": true
+            "show_edit_predictions": true
         },
         "C": {
             "tab_size": 4
@@ -83,5 +84,5 @@
         "CPP": {
             "tab_size": 4
         }
-    },
+    }
 }

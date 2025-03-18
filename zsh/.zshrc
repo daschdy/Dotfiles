@@ -10,6 +10,7 @@ alias dev="cd $HOME/Developer"
 alias dot="cd $HOME/Developer/Dotfiles"
 alias vc="cd $HOME/Developer/nvim"
 alias szsh="source $HOME/Developer/Dotfiles/zsh/.zshrc"
+alias gcc-14="/opt/homebrew/bin/gcc-14"
 
 source $HOME/Developer/Dotfiles/zsh/alias_private
 
