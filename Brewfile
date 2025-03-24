@@ -1,6 +1,5 @@
 tap "homebrew/bundle"
 tap "nikitabobko/tap"
-brew "gcc"
 brew "cmake"
 brew "dialog"
 brew "diff-so-fancy"
