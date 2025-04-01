@@ -23,8 +23,6 @@ eval "$(starship init zsh)"
 
 export PATH="/opt/homebrew/bin:$PATH"
 
-eval "$(conda "shell.$(basename "${SHELL}")" hook)"
-
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
 source "$HOME/.cargo/env"

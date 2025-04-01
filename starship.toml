@@ -4,10 +4,40 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
-# Replace the '❯' symbol in the prompt with '➜'
-[character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+# Moonfly theme
+# https://github.com/bluz71/vim-moonfly-colors/blob/master/extras/moonfly-starship.toml
+palette = "moonfly"
 
-# Disable the package module, hiding it from the prompt completely
+[c]
+style = "green"
+
+[character]
+success_symbol = "[❯](blue)"
+error_symbol = "[❯](red)"
+
+[directory]
+truncation_length = 4
+truncation_symbol = "…/"
+style = "fern"
+
+[git_branch]
+style = "lavender"
+
 [package]
-disabled = true
+style = "orange"
+
+[perl]
+style = "green"
+
+[swift]
+style = "red"
+
+[terraform]
+style = "purple"
+
+[palettes.moonfly]
+fern = "#87d787"
+lavender = "#adadf3"
+orange = "#f09479"
+red = "#f07496"
+
