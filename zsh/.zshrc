@@ -4,6 +4,7 @@ compinit
 
 PATH="$PATH":"$HOME/.local/scripts/"
 bindkey -s ^f "tmux-sessionizer\n"
+bindkey -s ^z "zettelkasten-sessionizer\n"
 
 alias ll="ls -la"
 alias dev="cd $HOME/Developer"
@@ -23,7 +24,4 @@ eval "$(starship init zsh)"
 
 export PATH="/opt/homebrew/bin:$PATH"
 
-source ~/.orbstack/shell/init.zsh 2>/dev/null || :
-
 source "$HOME/.cargo/env"
-

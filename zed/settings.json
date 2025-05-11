@@ -13,7 +13,7 @@
             ]
         }
     ],
-    "theme": "One Dark",
+    "theme": "Gruvbox Dark Hard",
     "telemetry": {
         "diagnostics": false,
         "metrics": false
