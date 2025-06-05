@@ -4,7 +4,6 @@ compinit
 
 PATH="$PATH":"$HOME/.local/scripts/"
 bindkey -s ^f "tmux-sessionizer\n"
-bindkey -s ^z "zettelkasten-sessionizer\n"
 
 alias ll="ls -la"
 alias dev="cd $HOME/Developer"
