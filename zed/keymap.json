@@ -1,38 +1,32 @@
 [
-  {
-    "context": "Editor && vim_mode == normal",
-    "bindings": {
-      "space n": "workspace::ToggleLeftDock",
-      "space t": "workspace::ToggleBottomDock",
-      "space f f": [
-        "workspace::SendKeystrokes",
-        "cmd-p"
-      ],
-      "shift-k": "editor::Hover",
-      "ctrl-h": "pane::ActivatePrevItem",
-      "ctrl-l": "pane::ActivateNextItem",
-      "space m p": "markdown::OpenPreviewToTheSide"
+    {
+        "context": "Editor && vim_mode == normal",
+        "bindings": {
+            "space n": "workspace::ToggleLeftDock",
+            "space t": "workspace::ToggleBottomDock",
+            "space f f": [
+                "workspace::SendKeystrokes",
+                "cmd-p"
+            ],
+            "shift-k": "editor::Hover",
+            "ctrl-left": "pane::ActivatePreviousItem",
+            "ctrl-right": "pane::ActivateNextItem",
+            "space m p": "markdown::OpenPreviewToTheSide"
+        }
+    },
+    {
+        "context": "Editor && edit_prediction",
+        "bindings": {
+            "alt-enter": "editor::AcceptEditPrediction"
+        }
+    },
+    {
+        "context": "Dock",
+        "bindings": {
+            "ctrl-b left": "workspace::ActivatePaneLeft",
+            "ctrl-b right": "workspace::ActivatePaneRight",
+            "ctrl-b up": "workspace::ActivatePaneUp",
+            "ctrl-b down": "workspace::ActivatePaneDown"
+        }
     }
-  },
-  {
-    "context": "Dock",
-    "bindings": {
-      "ctrl-b h": [
-        "workspace::ActivatePaneInDirection",
-        "Left"
-      ],
-      "ctrl-b l": [
-        "workspace::ActivatePaneInDirection",
-        "Right"
-      ],
-      "ctrl-b k": [
-        "workspace::ActivatePaneInDirection",
-        "Up"
-      ],
-      "ctrl-b j": [
-        "workspace::ActivatePaneInDirection",
-        "Down"
-      ]
-    }
-  }
 ]
