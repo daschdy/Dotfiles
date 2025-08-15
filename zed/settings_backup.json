@@ -50,6 +50,7 @@
         "button": false
     },
     "agent": {
+        "version": "2",
         "default_model": {
             "provider": "copilot_chat",
             "model": "gpt-4o"
@@ -68,8 +69,10 @@
     },
     "languages": {
         "C": {
-            "tab_size": 4,
-            "format_on_save": "off"
+            "tab_size": 4
+        },
+        "CPP": {
+            "tab_size": 4
         }
     }
 }
