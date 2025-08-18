@@ -4,3 +4,6 @@ theme = "onedark"
 line-number = "relative"
 cursorline = true
 auto-format = false
+
+[editor.soft-wrap]
+enable = true
