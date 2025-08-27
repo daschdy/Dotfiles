@@ -7,3 +7,8 @@ auto-format = false
 
 [editor.soft-wrap]
 enable = true
+
+[keys.normal]
+# Lazygit Integration
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+
