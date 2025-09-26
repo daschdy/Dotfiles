@@ -1,8 +1,8 @@
-theme = "onedark"
+theme = "tokyonight_transparent"
 
 [editor]
 line-number = "relative"
-cursorline = true
+cursorline = false
 auto-format = false
 lsp.display-inlay-hints = true
 

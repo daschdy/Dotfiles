@@ -2,10 +2,12 @@ term = xterm
 maximize = true
 title = ""
 
+theme = "TokyoNight"
+
 font-size = 14.5
 adjust-cell-height = 15%
 cursor-style = bar
 cursor-click-to-move = true
 
-background-opacity = 0.95
+background-opacity = 0.90
 background-blur = true

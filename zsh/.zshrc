@@ -10,6 +10,7 @@ alias dev="cd $HOME/Developer"
 alias dot="cd $HOME/Developer/Dotfiles"
 alias vc="cd $HOME/Developer/nvim"
 alias szsh="source $HOME/Developer/Dotfiles/zsh/.zshrc"
+alias lg="lazygit"
 
 source $HOME/Developer/Dotfiles/zsh/alias_private
 

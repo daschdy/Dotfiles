@@ -1,0 +1,12 @@
+[[language]]
+name = "python"
+language-servers = [ "pylsp", "ruff" ]
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[language-server.pylsp]
+command = "pylsp"
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
