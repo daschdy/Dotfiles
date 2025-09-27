@@ -9,5 +9,5 @@ adjust-cell-height = 15%
 cursor-style = bar
 cursor-click-to-move = true
 
-background-opacity = 0.90
-background-blur = true
+background-opacity = 1.0
+# background-blur = true

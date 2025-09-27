@@ -5,12 +5,21 @@ line-number = "relative"
 cursorline = false
 auto-format = false
 lsp.display-inlay-hints = true
+mouse = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
 
 [editor.inline-diagnostics]
 cursor-line = "hint"
 
 [editor.soft-wrap]
 enable = true
+
+[editor.file-picker]
+hidden = false
 
 [keys.normal]
 # Lazygit Integration

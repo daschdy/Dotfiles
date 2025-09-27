@@ -42,28 +42,27 @@ alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
 alt-4 = 'workspace 4'
 alt-5 = 'workspace 5'
-alt-q = 'workspace q'
-alt-w = 'workspace w'
-alt-e = 'workspace e'
-alt-r = 'workspace r'
-alt-t = 'workspace t'
+alt-6 = 'workspace 6'
+alt-7 = 'workspace 7'
+alt-8 = 'workspace 8'
+alt-9 = 'workspace 9'
 
 alt-shift-1 = 'move-node-to-workspace 1'
 alt-shift-2 = 'move-node-to-workspace 2'
 alt-shift-3 = 'move-node-to-workspace 3'
 alt-shift-4 = 'move-node-to-workspace 4'
 alt-shift-5 = 'move-node-to-workspace 5'
-alt-shift-q = 'move-node-to-workspace q'
-alt-shift-w = 'move-node-to-workspace w'
-alt-shift-e = 'move-node-to-workspace e'
-alt-shift-r = 'move-node-to-workspace r'
-alt-shift-t = 'move-node-to-workspace t'
+alt-shift-6 = 'move-node-to-workspace 6'
+alt-shift-7 = 'move-node-to-workspace 7'
+alt-shift-8 = 'move-node-to-workspace 8'
+alt-shift-9 = 'move-node-to-workspace 9'
 
 alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 alt-s = 'mode s'
 alt-x = 'mode x'
+alt-r = 'mode resize'
 
 [workspace-to-monitor-force-assignment]
 1 = 'main'
@@ -71,11 +70,10 @@ alt-x = 'mode x'
 3 = 'main' 
 4 = 'main' 
 5 = ['secondary', 'main']
-q = 'main'
-w = 'main'
-e = 'main'   
-r = 'main'
-t = 'main' 
+6 = 'main'
+7 = 'main'
+8 = 'main'   
+9 = 'main'
 
 [mode.s.binding]
 esc = ['reload-config', 'mode main']
@@ -91,4 +89,12 @@ alt-shift-l = ['join-with right', 'mode main']
 [mode.x.binding]
 esc = 'mode main'
 alt-esc = 'mode main'
+
+[mode.resize.binding]
+h = 'resize width -50'
+j = 'resize height +50'
+k = 'resize height -50'
+l = 'resize width +50'
+enter = 'mode main'
+esc = 'mode main'
 
